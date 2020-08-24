@@ -1,19 +1,22 @@
 [
   {
     "url":"https://m.facebook.com/ads/preferences/categories/?category_name=Your%20top%20interests",
-    "details": { 
-      "type":"List",
-      "selector":"._2lkq._2lkv",
-      "attrb" : "text"
-    },
-    "category": {
-      "type":"String",
-      "selector":"._52jh._5isc[data-sigil='category-selector']",
-      "attrb" : "text"
-    }
-  },
+    "Scrape_Details: {
+      "details": { 
+        "type":"List",
+        "selector":"._2lkq._2lkv",
+        "attrb" : "text"
+      },
+      "category": {
+        "type":"String",
+        "selector":"._52jh._5isc[data-sigil='category-selector']",
+        "attrb" : "text"
+      }
+  }
+ },
   {
     "url":"https://m.facebook.com/ads/preferences/categories/?category_name=Business%20and%20industry",
+  "Scrape_Details: {
     "details": { 
       "type":"List",
       "selector":"._2lkq._2lkv",
@@ -24,70 +27,81 @@
       "selector":"._52jh._5isc[data-sigil='category-selector']",
       "attrb" : "text"
     }
-  },
+  }
+ },
   {
     "url":"https://m.facebook.com/ads/preferences/categories/?category_name=Education",
-    "details": { 
-      "type":"List",
-      "selector":"._2lkq._2lkv",
-      "attrb" : "text"
-    },
-    "category": {
-      "type":"String",
-      "selector":"._52jh._5isc[data-sigil='category-selector']",
-      "attrb" : "text"
+    "Scrape_Details: {
+      "details": { 
+        "type":"List",
+        "selector":"._2lkq._2lkv",
+        "attrb" : "text"
+      },
+      "category": {
+        "type":"String",
+        "selector":"._52jh._5isc[data-sigil='category-selector']",
+        "attrb" : "text"
+      }
     }
   },
   {
     "url":"https://m.facebook.com/ads/preferences/categories/?category_name=Family%20and%20relationships",
-    "details": { 
-      "type":"List",
-      "selector":"._2lkq._2lkv",
-      "attrb" : "text"
-    },
-    "category": {
-      "type":"String",
-      "selector":"._52jh._5isc[data-sigil='category-selector']",
-      "attrb" : "text"
+    "Scrape_Details: {
+      "details": { 
+        "type":"List",
+        "selector":"._2lkq._2lkv",
+        "attrb" : "text"
+      },
+      "category": {
+        "type":"String",
+        "selector":"._52jh._5isc[data-sigil='category-selector']",
+        "attrb" : "text"
+      }
     }
   },
   {
     "url":"https://m.facebook.com/ads/preferences/categories/?category_name=Fitness%20and%20wellness",
-    "details": { 
-      "type":"List",
-      "selector":"._2lkq._2lkv",
-      "attrb" : "text"
-    },
-    "category": {
-      "type":"String",
-      "selector":"._52jh._5isc[data-sigil='category-selector']",
-      "attrb" : "text"
+    "Scrape_Details: {
+      "details": { 
+        "type":"List",
+        "selector":"._2lkq._2lkv",
+        "attrb" : "text"
+      },
+      "category": {
+        "type":"String",
+        "selector":"._52jh._5isc[data-sigil='category-selector']",
+        "attrb" : "text"
+      }
     }
   },
   {
     "url":"https://m.facebook.com/ads/preferences/categories/?category_name=Food%20and%20drink",
-    "details": { 
-      "type":"List",
-      "selector":"._2lkq._2lkv",
-      "attrb" : "text"
-    },
-    "category": {
-      "type":"String",
-      "selector":"._52jh._5isc[data-sigil='category-selector']",
-      "attrb" : "text"
+    "Scrape_Details: {
+      "details": { 
+        "type":"List",
+        "selector":"._2lkq._2lkv",
+        "attrb" : "text"
+      },
+      "category": {
+        "type":"String",
+        "selector":"._52jh._5isc[data-sigil='category-selector']",
+        "attrb" : "text"
+      }
     }
   },
   {
     "url":"https://m.facebook.com/ads/preferences/categories/?category_name=Hobbies%20and%20activities",
-    "details": { 
-      "type":"List",
-      "selector":"._2lkq._2lkv",
-      "attrb" : "text"
-    },
-    "category": {
-      "type":"String",
-      "selector":"._52jh._5isc[data-sigil='category-selector']",
-      "attrb" : "text"
+    "Scrape_Details: {
+      "details": { 
+        "type":"List",
+        "selector":"._2lkq._2lkv",
+        "attrb" : "text"
+      },
+      "category": {
+        "type":"String",
+        "selector":"._52jh._5isc[data-sigil='category-selector']",
+        "attrb" : "text"
+      }
     }
   }
   
