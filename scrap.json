@@ -1,38 +1,80 @@
 [
   {
     "url":"https://m.facebook.com/ads/preferences/categories/?category_name=Your%20top%20interests",
-    "details":"._2lkq._2lkv",
-    "category":"._52jh._5isc[data-sigil='category-selector']"
+    "details": { 
+      "type":"List",
+      "selector":"._2lkq._2lkv"
+    },
+    "category": {
+      "type":"String",
+      "selector":"._52jh._5isc[data-sigil='category-selector']"
+    }
   },
   {
     "url":"https://m.facebook.com/ads/preferences/categories/?category_name=Business%20and%20industry",
-    "details":"._2lkq._2lkv",
-    "category":"._52jh._5isc[data-sigil='category-selector']"
+    "details": { 
+      "type":"List",
+      "selector":"._2lkq._2lkv"
+    },
+    "category": {
+      "type":"String",
+      "selector":"._52jh._5isc[data-sigil='category-selector']"
+    }
   },
   {
     "url":"https://m.facebook.com/ads/preferences/categories/?category_name=Education",
-    "details":"._2lkq._2lkv",
-    "category":"._52jh._5isc[data-sigil='category-selector']"
+    "details": { 
+      "type":"List",
+      "selector":"._2lkq._2lkv"
+    },
+    "category": {
+      "type":"String",
+      "selector":"._52jh._5isc[data-sigil='category-selector']"
+    }
   },
   {
     "url":"https://m.facebook.com/ads/preferences/categories/?category_name=Family%20and%20relationships",
-    "details":"._2lkq._2lkv",
-    "category":"._52jh._5isc[data-sigil='category-selector']"
+    "details": { 
+      "type":"List",
+      "selector":"._2lkq._2lkv"
+    },
+    "category": {
+      "type":"String",
+      "selector":"._52jh._5isc[data-sigil='category-selector']"
+    }
   },
   {
     "url":"https://m.facebook.com/ads/preferences/categories/?category_name=Fitness%20and%20wellness",
-    "details":"._2lkq._2lkv",
-    "category":"._52jh._5isc[data-sigil='category-selector']"
+    "details": { 
+      "type":"List",
+      "selector":"._2lkq._2lkv"
+    },
+    "category": {
+      "type":"String",
+      "selector":"._52jh._5isc[data-sigil='category-selector']"
+    }
   },
   {
     "url":"https://m.facebook.com/ads/preferences/categories/?category_name=Food%20and%20drink",
-    "details":"._2lkq._2lkv",
-    "category":"._52jh._5isc[data-sigil='category-selector']"
+    "details": { 
+      "type":"List",
+      "selector":"._2lkq._2lkv"
+    },
+    "category": {
+      "type":"String",
+      "selector":"._52jh._5isc[data-sigil='category-selector']"
+    }
   },
   {
     "url":"https://m.facebook.com/ads/preferences/categories/?category_name=Hobbies%20and%20activities",
-    "details":"._2lkq._2lkv",
-    "category":"._52jh._5isc[data-sigil='category-selector']"
+    "details": { 
+      "type":"List",
+      "selector":"._2lkq._2lkv"
+    },
+    "category": {
+      "type":"String",
+      "selector":"._52jh._5isc[data-sigil='category-selector']"
+    }
   }
   
 ]
