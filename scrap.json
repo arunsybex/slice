@@ -1,7 +1,7 @@
 [
   {
     "url":"https://m.facebook.com/ads/preferences/categories/?category_name=Your%20top%20interests",
-    "Scrape_Details: {
+    "Scrape_Details": {
       "details": { 
         "type":"List",
         "selector":"._2lkq._2lkv",
@@ -16,7 +16,7 @@
  },
   {
     "url":"https://m.facebook.com/ads/preferences/categories/?category_name=Business%20and%20industry",
-  "Scrape_Details: {
+  "Scrape_Details": {
     "details": { 
       "type":"List",
       "selector":"._2lkq._2lkv",
@@ -31,7 +31,7 @@
  },
   {
     "url":"https://m.facebook.com/ads/preferences/categories/?category_name=Education",
-    "Scrape_Details: {
+    "Scrape_Details": {
       "details": { 
         "type":"List",
         "selector":"._2lkq._2lkv",
@@ -46,7 +46,7 @@
   },
   {
     "url":"https://m.facebook.com/ads/preferences/categories/?category_name=Family%20and%20relationships",
-    "Scrape_Details: {
+    "Scrape_Details": {
       "details": { 
         "type":"List",
         "selector":"._2lkq._2lkv",
@@ -61,7 +61,7 @@
   },
   {
     "url":"https://m.facebook.com/ads/preferences/categories/?category_name=Fitness%20and%20wellness",
-    "Scrape_Details: {
+    "Scrape_Details": {
       "details": { 
         "type":"List",
         "selector":"._2lkq._2lkv",
@@ -76,7 +76,7 @@
   },
   {
     "url":"https://m.facebook.com/ads/preferences/categories/?category_name=Food%20and%20drink",
-    "Scrape_Details: {
+    "Scrape_Details": {
       "details": { 
         "type":"List",
         "selector":"._2lkq._2lkv",
@@ -91,7 +91,7 @@
   },
   {
     "url":"https://m.facebook.com/ads/preferences/categories/?category_name=Hobbies%20and%20activities",
-    "Scrape_Details: {
+    "Scrape_Details": {
       "details": { 
         "type":"List",
         "selector":"._2lkq._2lkv",
