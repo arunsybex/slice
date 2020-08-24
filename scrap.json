@@ -1,5 +1,6 @@
 [
   {
+    "name":"Your_top_interests",
     "url":"https://m.facebook.com/ads/preferences/categories/?category_name=Your%20top%20interests",
     "Scrape_Details": {
       "details": { 
@@ -15,21 +16,23 @@
   }
  },
   {
+    "name":"Business_and_industry",
     "url":"https://m.facebook.com/ads/preferences/categories/?category_name=Business%20and%20industry",
-  "Scrape_Details": {
-    "details": { 
-      "type":"List",
-      "selector":"._2lkq._2lkv",
-      "attrb" : "text"
-    },
-    "category": {
-      "type":"String",
-      "selector":"._52jh._5isc[data-sigil='category-selector']",
-      "attrb" : "text"
+    "Scrape_Details": {
+      "details": { 
+        "type":"List",
+        "selector":"._2lkq._2lkv",
+        "attrb" : "text"
+      },
+      "category": {
+        "type":"String",
+        "selector":"._52jh._5isc[data-sigil='category-selector']",
+        "attrb" : "text"
+      }
     }
-  }
  },
   {
+    "name":"Education",
     "url":"https://m.facebook.com/ads/preferences/categories/?category_name=Education",
     "Scrape_Details": {
       "details": { 
@@ -45,6 +48,7 @@
     }
   },
   {
+    "name":"Family_and_relationships",
     "url":"https://m.facebook.com/ads/preferences/categories/?category_name=Family%20and%20relationships",
     "Scrape_Details": {
       "details": { 
@@ -60,6 +64,7 @@
     }
   },
   {
+    "name":"Fitness_and_wellness",
     "url":"https://m.facebook.com/ads/preferences/categories/?category_name=Fitness%20and%20wellness",
     "Scrape_Details": {
       "details": { 
@@ -75,6 +80,7 @@
     }
   },
   {
+    "name":"Food_and_drink",
     "url":"https://m.facebook.com/ads/preferences/categories/?category_name=Food%20and%20drink",
     "Scrape_Details": {
       "details": { 
@@ -90,6 +96,7 @@
     }
   },
   {
+    "name":"Hobbies_and_activities",
     "url":"https://m.facebook.com/ads/preferences/categories/?category_name=Hobbies%20and%20activities",
     "Scrape_Details": {
       "details": { 
