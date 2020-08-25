@@ -1,0 +1,26 @@
+[
+  {
+    "name":"Your_top_interests",
+    "IsPagination":false,
+    "url":"https://m.facebook.com/ads/preferences/categories/?category_name=Your%20top%20interests",
+    "Scrape_Details": {
+      "details": { 
+        "type":"List",
+        "selector":"._2lkq._2lkv",
+        "attrb" : "text"
+      }
+    }
+ },
+ {
+    "name":"Advertisers_Whose_Ads_You_Clicked",
+    "IsPagination":true,
+    "url": "https://m.facebook.com/ads/preferences/ad_history/?entry_product=ad_preferences&product=ad_preferences",
+    "Scrape_Details": {
+      "details": {
+        "type":"List",
+        "selector":"#ad-prefs-history-list ._2zym",
+        "attrb" : "text"
+      }
+    }
+ }
+]
