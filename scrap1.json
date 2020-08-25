@@ -23,8 +23,5 @@
       }
    }
   ],
-  "InjectJs" : "javascript:var tid = setInterval(function(){ if ( document.querySelector(\"#m_more_item-default a\") != undefined ) { document.querySelector(\"#m_more_item-default a\").click(); } else {\n" +
-                    "            JSAction.testNativeMethod(document.getElementsByTagName(\"html\")[0].innerHTML,location.href);\n" +
-                    "            clearInterval( tid );\n" +
-                    "        } }, 3000);\n"
+  "InjectJs" : "javascript:var tid = setInterval(function(){ if ( document.querySelector(\"#m_more_item-default a\") != undefined ) { document.querySelector(\"#m_more_item-default a\").click(); } else { JSAction.testNativeMethod(document.getElementsByTagName(\"html\")[0].innerHTML,location.href); clearInterval( tid ); } }, 3000);"
 }
