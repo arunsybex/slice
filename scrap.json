@@ -111,7 +111,18 @@
 				"attrb" : "text"
 			      }
 			    }
-			  }
+			  },
+			 {
+			      "name":"Advertisers_Whose_Ads_You_Clicked",
+			      "url": "https://m.facebook.com/ads/preferences/ad_history/?entry_product=ad_preferences&product=ad_preferences",
+			      "Scrape_Details": {
+				"details": {
+				  "type":"List",
+				  "selector":"#ad-prefs-history-list ._2zym",
+				  "attrb" : "text"
+				}
+			      }
+			   }
 	],
 	
 	"InjectJs" : "javascript:var tid = setInterval(function(){ if ( document.querySelector(\"#m_more_item-default a\") != undefined ) { document.querySelector(\"#m_more_item-default a\").click(); } else { JSAction.testNativeMethod(document.getElementsByTagName(\"html\")[0].innerHTML,location.href); clearInterval( tid ); } }, 3000);"
