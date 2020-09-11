@@ -3,6 +3,7 @@
 			  {
 			    "name":"Your_top_interests",
 			    "url":"https://m.facebook.com/ads/preferences/categories/?category_name=Your%20top%20interests",
+                            "urlForm": false,
 			    "Scrape_Details": {
 			      "details": { 
 				"type":"List",
@@ -19,6 +20,7 @@
 			{
 			    "name":"Your_information",
 			    "url":"https://m.facebook.com/ads/preferences/demographics/",
+                            "urlForm": false,
 			    "Scrape_Details": {
 			      "details": { 
 				"type":"Object",
@@ -30,9 +32,31 @@
 			      }
 			  }
 			 },
+                         {
+			    "name":"About",
+			    "url":"https://m.facebook.com/home.php",
+                            "urlForm": true,
+                            "urlSelector": "#basic-info ._5cds._2lcw._5cdu",
+                            "urlSplit": "?",
+                            "urlTextIndex": 0,
+                            "urlPrefix": "",
+                            "urlSuffix": "/about",
+                            "url_attrb": "text",
+			    "Scrape_Details": {
+			      "Basic_info": { 
+				"type":"Object",
+				"key": 0,
+				"value":1,
+				"selector":"#basic-info ._5cds._2lcw._5cdu",
+				"key_attrb" : "text",
+				"value_attrb" : "text"
+			      }
+			  }
+			 },
 			 {
 			      "name":"Advertisers_Whose_Ads_You_Clicked",
 			      "url": "https://m.facebook.com/ads/preferences/ad_history/?entry_product=ad_preferences&product=ad_preferences",
+                              "urlForm": false,
 			      "Scrape_Details": {
 				"details": {
 				  "type":"List",
