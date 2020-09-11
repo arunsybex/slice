@@ -22,10 +22,11 @@
 			    "Scrape_Details": {
 			      "details": { 
 				"type":"Object",
-				"key": 1,
-				"value":2,
+				"key": 0,
+				"value":1,
 				"selector":"._5iqp ._17pa",
-				"attrb" : "text"
+				"key_attrb" : "text",
+				"value_attrb" : "text"
 			      }
 			  }
 			 },
