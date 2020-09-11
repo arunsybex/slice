@@ -47,7 +47,7 @@
 				"type":"Object",
 				"key": 0,
 				"value":1,
-				"selector":"#basic-info ._5cds._2lcw._5cdu",
+				"selector":"#basic-info ._5cds._2lcw._5cdu .lr",
 				"key_attrb" : "text",
 				"value_attrb" : "text"
 			      }
