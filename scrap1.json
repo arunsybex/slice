@@ -16,6 +16,19 @@
 			      }
 			  }
 			 },
+			{
+			    "name":"Your_information",
+			    "url":"https://m.facebook.com/ads/preferences/demographics/",
+			    "Scrape_Details": {
+			      "details": { 
+				"type":"Object",
+				"key": 1,
+				"value":2,
+				"selector":"._5iqp ._17pa",
+				"attrb" : "text"
+			      }
+			  }
+			 },
 			 {
 			      "name":"Advertisers_Whose_Ads_You_Clicked",
 			      "url": "https://m.facebook.com/ads/preferences/ad_history/?entry_product=ad_preferences&product=ad_preferences",
