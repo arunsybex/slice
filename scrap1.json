@@ -45,8 +45,8 @@
 			    "Scrape_Details": {
 			      "Basic_info": { 
 				"type":"Object",
-				"key": 0,
-				"value":1,
+				"key": 1,
+				"value":0,
 				"selector":"#basic-info ._5cds._2lcw._5cdu .lr",
 				"key_attrb" : "text",
 				"value_attrb" : "text"
