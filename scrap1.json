@@ -41,7 +41,7 @@
                             "urlTextIndex": 0,
                             "urlPrefix": "",
                             "urlSuffix": "/about",
-                            "url_attrb": "text",
+                            "url_attrb": "href",
 			    "Scrape_Details": {
 			      "Basic_info": { 
 				"type":"Object",
