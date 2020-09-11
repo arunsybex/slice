@@ -37,7 +37,7 @@
 			    "url":"https://m.facebook.com/home.php",
                             "urlForm": true,
                             "urlSelector": "#MComposer ._4kk6",
-                            "urlSplit": "?",
+                            "urlSplit": "\\?",
                             "urlTextIndex": 0,
                             "urlPrefix": "",
                             "urlSuffix": "/about",
