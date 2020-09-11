@@ -112,6 +112,150 @@
 			      }
 			    }
 			  },
+			  {
+			    "name":"Lifestyle_and_culture",
+			    "url":"https://m.facebook.com/ads/preferences/categories/?category_name=Lifestyle%20and%20culture",
+			    "Scrape_Details": {
+			      "details": { 
+				"type":"List",
+				"selector":"._2lkq._2lkv",
+				"attrb" : "text"
+			      },
+			      "category": {
+				"type":"String",
+				"selector":"._52jh._5isc[data-sigil='category-selector']",
+				"attrb" : "text"
+			      }
+			    }
+			  },
+			  {
+			    "name":"News_and_entertainment",
+			    "url":"https://m.facebook.com/ads/preferences/categories/?category_name=News%20and%20entertainment",
+			    "Scrape_Details": {
+			      "details": { 
+				"type":"List",
+				"selector":"._2lkq._2lkv",
+				"attrb" : "text"
+			      },
+			      "category": {
+				"type":"String",
+				"selector":"._52jh._5isc[data-sigil='category-selector']",
+				"attrb" : "text"
+			      }
+			    }
+			  },
+			  {
+			    "name":"People",
+			    "url":"https://m.facebook.com/ads/preferences/categories/?category_name=People",
+			    "Scrape_Details": {
+			      "details": { 
+				"type":"List",
+				"selector":"._2lkq._2lkv",
+				"attrb" : "text"
+			      },
+			      "category": {
+				"type":"String",
+				"selector":"._52jh._5isc[data-sigil='category-selector']",
+				"attrb" : "text"
+			      }
+			    }
+			  },
+			  {
+			    "name":"Shopping_and_fashion",
+			    "url":"https://m.facebook.com/ads/preferences/categories/?category_name=Shopping%20and%20fashion",
+			    "Scrape_Details": {
+			      "details": { 
+				"type":"List",
+				"selector":"._2lkq._2lkv",
+				"attrb" : "text"
+			      },
+			      "category": {
+				"type":"String",
+				"selector":"._52jh._5isc[data-sigil='category-selector']",
+				"attrb" : "text"
+			      }
+			    }
+			  },
+			  {
+			    "name":"Sports_and_outdoors",
+			    "url":"https://m.facebook.com/ads/preferences/categories/?category_name=Sports%20and%20outdoors",
+			    "Scrape_Details": {
+			      "details": { 
+				"type":"List",
+				"selector":"._2lkq._2lkv",
+				"attrb" : "text"
+			      },
+			      "category": {
+				"type":"String",
+				"selector":"._52jh._5isc[data-sigil='category-selector']",
+				"attrb" : "text"
+			      }
+			    }
+			  },
+			  {
+			    "name":"Technology",
+			    "url":"https://m.facebook.com/ads/preferences/categories/?category_name=Technology",
+			    "Scrape_Details": {
+			      "details": { 
+				"type":"List",
+				"selector":"._2lkq._2lkv",
+				"attrb" : "text"
+			      },
+			      "category": {
+				"type":"String",
+				"selector":"._52jh._5isc[data-sigil='category-selector']",
+				"attrb" : "text"
+			      }
+			    }
+			  },
+			  {
+			    "name":"Travel_places_events",
+			    "url":"https://m.facebook.com/ads/preferences/categories/?category_name=Travel%2C%20places%20and%20events",
+			    "Scrape_Details": {
+			      "details": { 
+				"type":"List",
+				"selector":"._2lkq._2lkv",
+				"attrb" : "text"
+			      },
+			      "category": {
+				"type":"String",
+				"selector":"._52jh._5isc[data-sigil='category-selector']",
+				"attrb" : "text"
+			      }
+			    }
+			  },
+			  {
+			    "name":"Other",
+			    "url":"https://m.facebook.com/ads/preferences/categories/?category_name=Other",
+			    "Scrape_Details": {
+			      "details": { 
+				"type":"List",
+				"selector":"._2lkq._2lkv",
+				"attrb" : "text"
+			      },
+			      "category": {
+				"type":"String",
+				"selector":"._52jh._5isc[data-sigil='category-selector']",
+				"attrb" : "text"
+			      }
+			    }
+			  },
+			  {
+			    "name":"Removed",
+			    "url":"https://m.facebook.com/ads/preferences/categories/?category_name=Removed",
+			    "Scrape_Details": {
+			      "details": { 
+				"type":"List",
+				"selector":"._2lkq._2lkv",
+				"attrb" : "text"
+			      },
+			      "category": {
+				"type":"String",
+				"selector":"._52jh._5isc[data-sigil='category-selector']",
+				"attrb" : "text"
+			      }
+			    }
+			  },
 			 {
 			      "name":"Advertisers_Whose_Ads_You_Clicked",
 			      "url": "https://m.facebook.com/ads/preferences/ad_history/?entry_product=ad_preferences&product=ad_preferences",
