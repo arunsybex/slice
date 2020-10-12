@@ -1,0 +1,7 @@
+[
+	{
+		"name" : "Your_top_interests",
+		"url": "https://m.facebook.com/ads/preferences/categories/?category_name=Your%20top%20interests",
+		"InjectJs": "javascript:var main = document.querySelectorAll(\"._2lkq._2lkv\"); var arr = []; for(i=0;i< main.length;i++) { arr.push(main[i].innerText); } JSAction.testNativeMethod(JSON.stringify(arr));"
+	}
+]
