@@ -4,7 +4,7 @@
 															"name" : "About",
 															"url": "https://m.facebook.com",
 															"wait" : 0,
-															"InjectJs": "(function() { document.querySelectorAll(\"#MComposer a._4kk6\")[0].click() })();"
+															"InjectJs": "(function() { document.querySelectorAll(\"#MComposer a._4kk6\")[0].click(); document.querySelectorAll(\"#u_7_e\")[0].click(); })();"
 														    }
              }
  }
