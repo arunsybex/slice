@@ -11,7 +11,12 @@
 																	"url": "https://m.facebook.com/ads/preferences/ad_history/?entry_product=ad_preferences&product=ad_preferences",
 																	"wait" : 100,
 																	"InjectJs": "(function() { var tid = setInterval(function(){ if ( document.querySelector(\"#m_more_item-default a\") != undefined ) { document.querySelector(\"#m_more_item-default a\").click(); } else { clearInterval( tid ); var main = document.querySelectorAll(\"#ad-prefs-history-list ._2zym\"); var arr = []; for(i=0;i< main.length;i++) { arr.push(main[i].innerText); } JSAction.testNativeMethod(JSON.stringify(arr)); return(JSON.stringify(arr)); } }, 3000); })();"
-																}
+																},
+			"https://m.facebook.com/ads/preferences/categories/?category_name=Business%20and%20industry" : {
+															"name" : "Business_and_industry",
+															"url": "https://m.facebook.com/ads/preferences/categories/?category_name=Business%20and%20industry",
+															"wait" : 0,
+															"InjectJs": "(function() { var main = document.querySelectorAll(\"._2lkq._2lkv\"); var arr = []; for(i=0;i< main.length;i++) { arr.push(main[i].innerText); } JSAction.testNativeMethod(JSON.stringify(arr)); return(JSON.stringify(arr)); })();"
 		},
 	"IOS" : []
 }
