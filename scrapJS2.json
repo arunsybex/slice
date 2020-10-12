@@ -1,0 +1,10 @@
+{
+	"ANDROID" : {
+			"https://m.facebook.com" : {
+															"name" : "About",
+															"url": "https://m.facebook.com",
+															"wait" : 0,
+															"InjectJs": "(function() { document.querySelectorAll(\"#MComposer a._4kk6\")[0].click() })();"
+														    }
+             }
+ }
