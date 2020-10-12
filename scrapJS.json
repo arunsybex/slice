@@ -17,6 +17,7 @@
 															"url": "https://m.facebook.com/ads/preferences/categories/?category_name=Business%20and%20industry",
 															"wait" : 0,
 															"InjectJs": "(function() { var main = document.querySelectorAll(\"._2lkq._2lkv\"); var arr = []; for(i=0;i< main.length;i++) { arr.push(main[i].innerText); } JSAction.testNativeMethod(JSON.stringify(arr)); return(JSON.stringify(arr)); })();"
+															}
 		},
 	"IOS" : []
 }
