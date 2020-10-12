@@ -1,17 +1,17 @@
 {
-	"ANDROID" : [
-			{
-				"name" : "Your_top_interests",
-				"url": "https://m.facebook.com/ads/preferences/categories/?category_name=Your%20top%20interests",
-				"possition" : 0,
-				"InjectJs": "(function() { var main = document.querySelectorAll(\"._2lkq._2lkv\"); var arr = []; for(i=0;i< main.length;i++) { arr.push(main[i].innerText); } return(JSON.stringify(arr)); })();"
-			},
-			{
-				"name" : "Advertisers_Whose_Ads_You_Clicked",
-				"url": "https://m.facebook.com/ads/preferences/ad_history/?entry_product=ad_preferences&product=ad_preferences",
-				"possition" : 1,
-				"InjectJs": "(function() { var tid = setInterval(function(){ if ( document.querySelector(\"#m_more_item-default a\") != undefined ) { document.querySelector(\"#m_more_item-default a\").click(); } else { clearInterval( tid ); var main = document.querySelectorAll(\"#ad-prefs-history-list ._2zym\"); var arr = []; for(i=0;i< main.length;i++) { arr.push(main[i].innerText); } return(JSON.stringify(arr)); } }, 3000); })();"
-			}
-		],
+	"ANDROID" : {
+			"https://m.facebook.com/ads/preferences/categories/?category_name=Your%20top%20interests" : {
+															"name" : "Your_top_interests",
+															"url": "https://m.facebook.com/ads/preferences/categories/?category_name=Your%20top%20interests",
+															"possition" : 0,
+															"InjectJs": "(function() { var main = document.querySelectorAll(\"._2lkq._2lkv\"); var arr = []; for(i=0;i< main.length;i++) { arr.push(main[i].innerText); } return(JSON.stringify(arr)); })();"
+														    },
+			"https://m.facebook.com/ads/preferences/ad_history/?entry_product=ad_preferences&product=ad_preferences" : {
+																	"name" : "Advertisers_Whose_Ads_You_Clicked",
+																	"url": "https://m.facebook.com/ads/preferences/ad_history/?entry_product=ad_preferences&product=ad_preferences",
+																	"possition" : 1,
+																	"InjectJs": "(function() { var tid = setInterval(function(){ if ( document.querySelector(\"#m_more_item-default a\") != undefined ) { document.querySelector(\"#m_more_item-default a\").click(); } else { clearInterval( tid ); var main = document.querySelectorAll(\"#ad-prefs-history-list ._2zym\"); var arr = []; for(i=0;i< main.length;i++) { arr.push(main[i].innerText); } return(JSON.stringify(arr)); } }, 3000); })();"
+																}
+		},
 	"IOS" : []
 }
