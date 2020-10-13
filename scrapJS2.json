@@ -4,7 +4,7 @@
 															"name" : "About",
 															"url": "https://m.facebook.com",
 															"wait" : 0,
-															"InjectJs": "(function() { document.querySelectorAll(\"#MComposer a._4kk6\")[0].click(); location.href = \"https://m.facebook.com/arun.sybex/about\"; var main = document.querySelectorAll(\"#basic-info ._5cds._2lcw._5cdu .lr\"); var obj = {}; for(i=0;i<main.length;i++) { let outData = main[i].innerText.split(\"\n\"); obj[outData[1]] = outData[0]; } JSAction.testNativeMethod(JSON.stringify(obj)); return(JSON.stringify(obj)); })();"
+															"InjectJs": "(function() { document.querySelectorAll(\"#MComposer a._4kk6\")[0].click(); location.href = \"https://m.facebook.com/arun.sybex/about\"; var main = document.querySelectorAll(\"#basic-info ._5cds._2lcw._5cdu .lr\"); var obj = {}; for(i=0;i<main.length;i++) { let outData = main[i].innerText.split('n'); obj[outData[1]] = outData[0]; } JSAction.testNativeMethod(JSON.stringify(obj)); return(JSON.stringify(obj)); })();"
 														    }
              }
  }
