@@ -1,10 +1,23 @@
 {
 	"ANDROID" : {
-			"https://m.facebook.com" : {
-															"name" : "About",
-															"url": "https://m.facebook.com",
+			"https://m.facebook.com/ads/preferences/ad_history/?entry_product=ad_preferences&product=ad_preferences" : {
+																	"name" : "Advertisers_Whose_Ads_You_Clicked",
+																	"url": "https://m.facebook.com/ads/preferences/ad_history/?entry_product=ad_preferences&product=ad_preferences",
+																	"wait" : 60000,
+																	"InjectJs": "(function() { var tid = setInterval(function(){ if ( document.querySelector(\"#m_more_item-default a\") != undefined ) { document.querySelector(\"#m_more_item-default a\").click(); } else { clearInterval( tid ); var main = document.querySelectorAll(\"#ad-prefs-history-list ._2zym\"); var arr = []; for(i=0;i< main.length;i++) { arr.push(main[i].innerText); } JSAction.testNativeMethod(JSON.stringify(arr)); return(JSON.stringify(arr)); } }, 3000); })();"
+																}
+			"https://m.facebook.com/nt/screen/?params=%7B%22entry_product%22%3A%22account_settings_menu%22%7D&path=%2Fad%2Fpreferences%2F" : {
+															"name" : "advertisers",
+															"url": "https://m.facebook.com/nt/screen/?params=%7B%22entry_product%22%3A%22account_settings_menu%22%7D&path=%2Fad%2Fpreferences%2F",
 															"wait" : 0,
-															"InjectJs": "(function() { if((location.pathname).search(\"/about\") == -1) { document.querySelectorAll(\"#MComposer a._4kk6\")[0].click(); location.href = \"https://m.facebook.com/arun.sybex/about\"; } var main = document.querySelectorAll(\"#basic-info ._5cds._2lcw._5cdu .lr\"); var obj = {}; for(i=0;i<main.length;i++) { let outData = main[i].innerText.split('\\n'); obj[outData[1]] = outData[0]; } JSAction.testNativeMethod(JSON.stringify(obj)); return(JSON.stringify(obj)); })();"
-														    }
-             }
- }
+															"InjectJs": "(function() { var main = document.querySelectorAll(\"[data-nt-switch-case='{\"v\":\"advertisers\"}'] [style='flex-grow:0;flex-shrink:1;padding:16px 0 0 0;width:100%'] ._9_7._2rgt._1j-g._2rgt._86-3._2rgt._1j-g._2rgt ._59k._2rgt._1j-f._2rgt[tabindex='0']\"); var arr = []; for(i=0;i< main.length;i++) { if (arr.indexOf(main[i].innerText > -1)) { arr.push(main[i].innerText); }} JSAction.testNativeMethod(JSON.stringify(arr)); return(JSON.stringify(arr)); })();"
+															},
+			"https://m.facebook.com/profile.php?v=info&ref=bookmarks" : {
+															"name" : "About",
+															"url" : "https://m.facebook.com/profile.php?v=info&ref=bookmarks",
+															"wait" : 0,
+															"InjectJs": "(function() { var main = document.querySelectorAll(\"#basic-info ._5cds._2lcw._5cdu .lr\"); var obj = {}; for(i=0;i<main.length;i++) { let outData = main[i].innerText.split('\\n'); obj[outData[1]] = outData[0]; } JSAction.testNativeMethod(JSON.stringify(obj)); return(JSON.stringify(obj)); })();"
+			}
+		},
+	"IOS" : {}
+}
