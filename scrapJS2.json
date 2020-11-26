@@ -5,7 +5,7 @@
 																	"url": "https://m.facebook.com/ads/preferences/ad_history/?entry_product=ad_preferences&product=ad_preferences",
 																	"wait" : 60000,
 																	"InjectJs": "(function() { var tid = setInterval(function(){ if ( document.querySelector(\"#m_more_item-default a\") != undefined ) { document.querySelector(\"#m_more_item-default a\").click(); } else { clearInterval( tid ); var main = document.querySelectorAll(\"#ad-prefs-history-list ._2zym\"); var arr = []; for(i=0;i< main.length;i++) { arr.push(main[i].innerText); } JSAction.testNativeMethod(JSON.stringify(arr)); return(JSON.stringify(arr)); } }, 3000); })();"
-																}
+																},
 			"https://m.facebook.com/nt/screen/?params=%7B%22entry_product%22%3A%22account_settings_menu%22%7D&path=%2Fad%2Fpreferences%2F" : {
 															"name" : "advertisers",
 															"url": "https://m.facebook.com/nt/screen/?params=%7B%22entry_product%22%3A%22account_settings_menu%22%7D&path=%2Fad%2Fpreferences%2F",
