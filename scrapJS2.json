@@ -10,7 +10,7 @@
 															"name" : "advertisers",
 															"url": "https://m.facebook.com/nt/screen/?params=%7B%22entry_product%22%3A%22account_settings_menu%22%7D&path=%2Fad%2Fpreferences%2F",
 															"wait" : 0,
-															"InjectJs": "(function() { var main = document.querySelectorAll(\"[data-nt-switch-case='{\"v\":\"advertisers\"}'] [style='flex-grow:0;flex-shrink:1;padding:16px 0 0 0;width:100%'] ._9_7._2rgt._1j-g._2rgt._86-3._2rgt._1j-g._2rgt ._59k._2rgt._1j-f._2rgt[tabindex='0']\"); var arr = []; for(i=0;i< main.length;i++) { if (arr.indexOf(main[i].innerText) > -1) { arr.push(main[i].innerText); }} JSAction.testNativeMethod(JSON.stringify(arr)); return(JSON.stringify(arr)); })();"
+															"InjectJs": "(function() { var main = document.querySelectorAll(\"[data-nt-switch-case='{\/\"v\/\":\/\"advertisers\/\"}'] [style='flex-grow:0;flex-shrink:1;padding:16px 0 0 0;width:100%'] ._9_7._2rgt._1j-g._2rgt._86-3._2rgt._1j-g._2rgt ._59k._2rgt._1j-f._2rgt[tabindex='0']\"); var arr = []; for(i=0;i< main.length;i++) { if (arr.indexOf(main[i].innerText) > -1) { arr.push(main[i].innerText); }} JSAction.testNativeMethod(JSON.stringify(arr)); return(JSON.stringify(arr)); })();"
 															},
 			"https://m.facebook.com/nt/screen/?params=%7B%22entry_product%22%3A%22ad_topics%22%7D&path=%2Fad%2Fpreferences%2F" : {
 															"name" : "ad_topics",
