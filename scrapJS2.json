@@ -18,6 +18,12 @@
 															"wait" : 0,
 															"InjectJs": "(function() { var main = document.querySelectorAll(\"[data-nt-switch-case='{\\\"v\\\":\\\"ad_topics\\\"}'] [style='flex-grow:0;flex-shrink:1;padding:16px 0 0 0;width:100%'] ._9_7._2rgt._1j-g._2rgt._86-3._2rgt._1j-g._2rgt ._59k._2rgt._1j-f._2rgt[tabindex='0']\"); var arr = []; for(i=0;i< main.length;i++) { if (arr.indexOf(main[i].innerText) == -1) { arr.push(main[i].innerText); }} JSAction.testNativeMethod(JSON.stringify(arr)); return(JSON.stringify(arr)); })();"
 															},
+			"https://m.facebook.com/nt/screen/?params=%7B%22audience_targeting_type%22%3A2%7D&path=%2Fad%2Fpreferences%2Faudience_interests_categories_detail_page%2F&state" : {
+															"name" : "Other_categories",
+															"url": "https://m.facebook.com/nt/screen/?params=%7B%22audience_targeting_type%22%3A2%7D&path=%2Fad%2Fpreferences%2Faudience_interests_categories_detail_page%2F&state",
+															"wait" : 0,
+															"InjectJs": "(function() { var main = document.querySelectorAll('[data-nt=\"NT:DECOR\"] ._59k._2rgt._1j-f._2rgt[tabindex=\"0\"]'); var arr = []; for(i=0;i< main.length;i++) { if (arr.indexOf(main[i].innerText) == -1) { arr.push(main[i].innerText); }} JSAction.testNativeMethod(JSON.stringify(arr)); return(JSON.stringify(arr)); })();"
+															},
 			"https://m.facebook.com/profile.php?v=info&ref=bookmarks" : {
 															"name" : "About",
 															"url" : "https://m.facebook.com/profile.php?v=info&ref=bookmarks",
